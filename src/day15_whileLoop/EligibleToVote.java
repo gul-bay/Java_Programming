@@ -60,6 +60,6 @@ repeatedly ask "Invalid entry, please re-enter Yes/No".
 toLowerCase(): ignores case sensitivity.
 We have to repeat the while loop, whenever the answer is invalid.
 Inside the parenthesis is the valid condition. With the exclamation mark it will give me the expression of invalid.
-
-
- */
+If I provide an invalid entry, I will get an infinite loop. To exit the loop I need to provide an entry, that is valid.
+Then the while condition becomes false.
+*/
